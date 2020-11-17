@@ -1,0 +1,133 @@
+---
+---
+
+<!doctype html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/assets/css/styles_persone_alumni.css">
+	<script src="https://kit.fontawesome.com/5c118897ca.js" crossorigin="anonymous"></script>
+    <title>Persone & Alumni</title>
+  </head>
+  <body style="background-color:#854d27;">
+
+
+
+      <nav class="navbar navbar-dark" style="background-color: #0a0f0d;">
+        <div class="container"/div>
+        <a class="navbar-brand" href="/">
+          <img src="/assets/images/logo.png" width="120" height="30" class="d-inline-block align-top" alt="">
+        </a>
+        <span class="navbar-text">
+            {% for item in site.data.navigation %}
+				{{ item.icon }}
+				<a href="{{ item.link }}" style="color:#b1ae91;">{{ item.name }}</a>
+			{% endfor %}
+        </span>
+      </div>
+      </nav>
+
+
+    <div class="jumbotron text-white jumbotron-image shadow" style="background-image: url(/assets/images/logo_jumbotron.png); background-size: 1500px 300px; margin-bottom: 60px;">
+      <h1 class="display-4" style="color:#b1ae91;">Persone & Alumni</h1>
+      <p class="lead" style="color:#b1ae91;">Descrizione</p>
+      <hr class="my-4">
+    </div>
+	
+	<div class="container">
+	<div class="card-deck">
+		<div class="card mb-3" style="max-width: 540px; background-color: #0A0F0D; border: none; border-top-left-radius: 5%; border-bottom-left-radius:5%; border-top-right-radius: 3%; border-bottom-right-radius:3%;">
+		  <div class="row no-gutters"> 
+			<div class="col-md-4">
+			  <img src="/assets/images/mei.jpg" class="card-img" alt="Image" style="border-top-left-radius: 5%; border-bottom-left-radius:5%;">
+			</div>
+			<div class="col-md-8">
+			  <div class="card-body">
+				<h5 class="card-title" style="color:#b1ae91;">Alessandro Mei</h5>
+				<p class="card-text" style="color:#b1ae91;">Full professor & Head</p>
+				<p class="card-text" style="color:#b1ae91;">Presentazione</small></p>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		
+		<div class="card mb-3" style="max-width: 540px; background-color: #0A0F0D; border: none; border-top-left-radius: 5%; border-bottom-left-radius:5%; border-top-right-radius: 3%; border-bottom-right-radius:3%;">
+		  <div class="row no-gutters"> 
+			<div class="col-md-4">
+			  <img src="/assets/images/lamorgia.jpg" class="card-img" alt="Image" style="border-top-left-radius: 5%; border-bottom-left-radius:5%;">
+			</div>
+			<div class="col-md-8">
+			  <div class="card-body">
+				<h5 class="card-title" style="color:#b1ae91;">Massimo La Morgia</h5>
+				<p class="card-text" style="color:#b1ae91;">Postdoc</p>
+				<p class="card-text" style="color:#b1ae91;">Presentazione</small></p>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	</div>
+	
+	<hr style="height:10px;border-width:0;color:gray;background-color:#854d27;">
+
+	
+	<div class="card-deck">
+		<div class="card mb-3" style="max-width: 540px; background-color: #0A0F0D; border: none; border-top-left-radius: 5%; border-bottom-left-radius:5%; border-top-right-radius: 3%; border-bottom-right-radius:3%;">
+		  <div class="row no-gutters"> 
+			<div class="col-md-4">
+			  <img src="/assets/images/nemmi.jpg" class="card-img" alt="Image" style="border-top-left-radius: 5%; border-bottom-left-radius:5%;">
+			</div>
+			<div class="col-md-8">
+			  <div class="card-body">
+				<h5 class="card-title" style="color:#b1ae91;">Eugenio Nemmi</h5>
+				<p class="card-text" style="color:#b1ae91;">PHD Student</p>
+				<p class="card-text" style="color:#b1ae91;">Presentazione</small></p>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		
+		<div class="card mb-3" style="max-width: 540px; background-color: #0A0F0D; border: none; border-top-left-radius: 5%; border-bottom-left-radius:5%; border-top-right-radius: 3%; border-bottom-right-radius:3%;">
+		  <div class="row no-gutters"> 
+			<div class="col-md-4">
+			  <img src="/assets/images/carbone.jpg" class="card-img" alt="Image" style="border-top-left-radius: 5%; border-bottom-left-radius:5%;">
+			</div>
+			<div class="col-md-8">
+			  <div class="card-body">
+				<h5 class="card-title" style="color:#b1ae91;">Generoso Carbone</h5>
+				<p class="card-text" style="color:#b1ae91;">Research Fellow</p>
+				<p class="card-text" style="color:#b1ae91;">Presentazione</small></p>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	</div>
+	
+	</div>
+
+    
+	
+	
+
+    
+
+    <nav class="navbar bottom navbar-dark" style="background-color: #0a0f0d;">
+      <div class="container">
+  <img src="/assets/images/logo.png" width="300" height="80" class="d-inline-block align-top" alt="">
+    <img src="/assets/images/sapienza.png" width="300" height="80" class="d-inline-block align-top" alt="">
+
+</div>
+</nav>
+
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+  </body>
+</html>

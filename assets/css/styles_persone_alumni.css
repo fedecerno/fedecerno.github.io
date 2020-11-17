@@ -1,0 +1,17 @@
+div.jumbotron {
+    text-align:center;
+}
+
+div.container_center {
+	text-align:center;
+}
+
+div.card_center {
+	margin-left: auto;
+    margin-right: auto;
+}
+
+div.card-deck {
+	margin-left: auto;
+	margin-right: auto;
+}

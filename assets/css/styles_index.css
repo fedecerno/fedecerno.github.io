@@ -1,0 +1,11 @@
+div.jumbotron {
+    text-align:center;
+}
+
+div.container_center {
+	text-align:center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
