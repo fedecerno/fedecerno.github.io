@@ -1,0 +1,15 @@
+- titolo: Progetto A
+  descrizione_jumbotron: Descrizione
+  descrizione_carta: Descrizione
+  immagine: /assets/images/team-work.jpg
+  active: active
+
+- titolo: Progetto B
+  descrizione_jumbotron: Descrizione
+  descrizione_carta: Descrizione
+  immagine: /assets/images/publications.png
+
+- titolo: Progetto C
+  descrizione_jumbotron: Descrizione
+  descrizione_carta: Descrizione
+  immagine: /assets/images/projects.jpg

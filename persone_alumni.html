@@ -1,4 +1,6 @@
 ---
+title: Persone & Alumni
+description: Descrizione
 ---
 
 <!doctype html>
@@ -15,114 +17,76 @@
 	<script src="https://kit.fontawesome.com/5c118897ca.js" crossorigin="anonymous"></script>
     <title>Persone & Alumni</title>
   </head>
-  <body style="background-color:#fac855;">
+  <body style="background-color:#bfc0c0;">
 
 
 
-      <nav class="navbar navbar-dark" style="background-color: #3c3c3c;">
-        <div class="container"/div>
-        <a class="navbar-brand" href="/">
-          <img src="/assets/images/logo.png" width="120" height="30" class="d-inline-block align-top" alt="">
-        </a>
-        <span class="navbar-text">
-            {% for item in site.data.navigation %}
-				{{ item.icon }}
-				<a href="{{ item.link }}" style="color:#ffffff;">{{ item.name }}</a>
-			{% endfor %}
-        </span>
-      </div>
-      </nav>
+    {% include navbar.html %}
 
 
-    <div class="jumbotron text-white jumbotron-image shadow" style="background-image: url(/assets/images/logo_jumbotron.png); background-size: 1500px 300px; margin-bottom: 60px;">
-      <h1 class="display-4" style="color:#ffffff;">Persone & Alumni</h1>
-      <p class="lead" style="color:#ffffff;">Descrizione</p>
-      <hr style="height:10px; width: 5px; border-width:0;color:gray;background-color:#3c3c3c;">
-    </div>
-	
+    {% include jumbotron.html %}
+
+	<h2 class="myCopy">
+    <span>Persone</span>
+</h2>
+<hr style="height:10px; width: 5px; border-width:0;color:gray;background-color:#bfc0c0;">
+<hr style="height:10px; width: 5px; border-width:0;color:gray;background-color:#bfc0c0;">
+
 	<div class="container">
+  {% for item in site.data.persone %}
 	<div class="card-deck">
-		<div class="card mb-3" style="max-width: 540px; background-color: #3c3c3c; border: none; border-top-left-radius: 5%; border-bottom-left-radius:5%; border-top-right-radius: 3%; border-bottom-right-radius:3%;">
-		  <div class="row no-gutters"> 
+		<div class="card mb-3" style="max-width: 540px; background-color: #2d3142; border: none; border-top-left-radius: 5%; border-bottom-left-radius:5%; border-top-right-radius: 3%; border-bottom-right-radius:3%;">
+		  <div class="row no-gutters">
 			<div class="col-md-4">
-			  <img src="/assets/images/mei.jpg" class="card-img" alt="Image" style="border-top-left-radius: 5%; border-bottom-left-radius:5%;">
+			  <img src={{item.image_sx}} class="card-img" alt="Image" style="border-top-left-radius: 5%; border-bottom-left-radius:5%;">
 			</div>
 			<div class="col-md-8">
 			  <div class="card-body">
-				<h5 class="card-title" style="color:#ffffff;">Alessandro Mei</h5>
-				<p class="card-text" style="color:#ffffff;">Full professor & Head</p>
-				<p class="card-text" style="color:#ffffff;">Presentazione</small></p>
+				<h5 class="card-title" style="color:#ffffff;">{{item.name_sx}}</h5>
+				<p class="card-text" style="color:#ffffff;">{{item.role_sx}}</p>
+				<p class="card-text" style="color:#ffffff;">{{item.presentation_sx}}</small></p>
 			  </div>
 			</div>
 		  </div>
 		</div>
-		
-		<div class="card mb-3" style="max-width: 540px; background-color: #3c3c3c; border: none; border-top-left-radius: 5%; border-bottom-left-radius:5%; border-top-right-radius: 3%; border-bottom-right-radius:3%;">
-		  <div class="row no-gutters"> 
-			<div class="col-md-4">
-			  <img src="/assets/images/lamorgia.jpg" class="card-img" alt="Image" style="border-top-left-radius: 5%; border-bottom-left-radius:5%;">
-			</div>
-			<div class="col-md-8">
-			  <div class="card-body">
-				<h5 class="card-title" style="color:#ffffff;">Massimo La Morgia</h5>
-				<p class="card-text" style="color:#ffffff;">Postdoc</p>
-				<p class="card-text" style="color:#ffffff;">Presentazione</small></p>
-			  </div>
-			</div>
-		  </div>
-		</div>
-	</div>
-	
-	<hr style="height:10px;border-width:0;color:gray;background-color:#fac855;">
 
-	
-	<div class="card-deck">
-		<div class="card mb-3" style="max-width: 540px; background-color: #3c3c3c; border: none; border-top-left-radius: 5%; border-bottom-left-radius:5%; border-top-right-radius: 3%; border-bottom-right-radius:3%;">
-		  <div class="row no-gutters"> 
+    <div class="card mb-3" style="max-width: 540px; background-color: #2d3142; border: none; border-top-left-radius: 5%; border-bottom-left-radius:5%; border-top-right-radius: 3%; border-bottom-right-radius:3%;">
+		  <div class="row no-gutters">
 			<div class="col-md-4">
-			  <img src="/assets/images/nemmi.jpg" class="card-img" alt="Image" style="border-top-left-radius: 5%; border-bottom-left-radius:5%;">
+			  <img src={{item.image_dx}} class="card-img" alt="Image" style="border-top-left-radius: 5%; border-bottom-left-radius:5%;">
 			</div>
 			<div class="col-md-8">
 			  <div class="card-body">
-				<h5 class="card-title" style="color:#ffffff;">Eugenio Nemmi</h5>
-				<p class="card-text" style="color:#ffffff;">PHD Student</p>
-				<p class="card-text" style="color:#ffffff;">Presentazione</small></p>
+				<h5 class="card-title" style="color:#ffffff;">{{item.name_dx}}</h5>
+				<p class="card-text" style="color:#ffffff;">{{item.role_dx}}</p>
+				<p class="card-text" style="color:#ffffff;">{{item.presentation_dx}}</small></p>
 			  </div>
 			</div>
 		  </div>
 		</div>
-		
-		<div class="card mb-3" style="max-width: 540px; background-color: #3c3c3c; border: none; border-top-left-radius: 5%; border-bottom-left-radius:5%; border-top-right-radius: 3%; border-bottom-right-radius:3%;">
-		  <div class="row no-gutters"> 
-			<div class="col-md-4">
-			  <img src="/assets/images/carbone.jpg" class="card-img" alt="Image" style="border-top-left-radius: 5%; border-bottom-left-radius:5%;">
-			</div>
-			<div class="col-md-8">
-			  <div class="card-body">
-				<h5 class="card-title" style="color:#ffffff;">Generoso Carbone</h5>
-				<p class="card-text" style="color:#ffffff;">Research Fellow</p>
-				<p class="card-text" style="color:#ffffff;">Presentazione</small></p>
-			  </div>
-			</div>
-		  </div>
-		</div>
-	</div>
-	
+  </div>
+	<hr style="height:10px;border-width:0;color:gray;background-color:#bfc0c0;">
+  {% endfor %}
 	</div>
 
-    
-	
-	
+    <hr style="height:10px; width: 5px; border-width:0;color:gray;background-color:#bfc0c0;">
+	<h2 class="myCopy">
+    <span>Alumni</span>
+</h2>
+<hr style="height:10px; width: 5px; border-width:0;color:gray;background-color:#bfc0c0;">
 
-    
 
-    <nav class="navbar bottom navbar-dark" style="background-color: #3c3c3c;">
-      <div class="container">
-  <img src="/assets/images/logo.png" width="300" height="80" class="d-inline-block align-top" alt="">
-    <img src="/assets/images/sapienza.png" width="300" height="80" class="d-inline-block align-top" alt="">
-
+<div class="container">
+<ul>
+  {% for item in site.data.alumni %}
+  <li>{{item.name}} {{item.info}}</li>
+  {% endfor %}
+</ul>
 </div>
-</nav>
+
+<hr style="height:10px; width: 5px; border-width:0;color:gray;background-color:#bfc0c0;">
+
+    {% include footer.html %}
 
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->

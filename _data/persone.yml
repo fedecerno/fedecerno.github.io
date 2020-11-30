@@ -1,0 +1,19 @@
+- name_sx: Alessandro Mei
+  role_sx: Full professor & Head
+  presentation_sx: Presentazione
+  image_sx: "/assets/images/mei.jpg"
+
+  name_dx: Massimo La Morgia
+  role_dx: Postdoc
+  presentation_dx: Presentazione
+  image_dx: "/assets/images/lamorgia.jpg"
+
+- name_sx: Eugenio Nemmi
+  role_sx: PHD Student
+  presentation_sx: Presentazione
+  image_sx: "/assets/images/nemmi.jpg"
+
+  name_dx: Generoso Carbone
+  role_dx: Research Fellow
+  presentation_dx: Presentazione
+  image_dx: "/assets/images/carbone.jpg"

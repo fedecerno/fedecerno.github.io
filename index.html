@@ -16,77 +16,27 @@
 
     <title>RealLab</title>
   </head>
-  <body style="background-color:#fac855;">
+  <body style="background-color:#bfc0c0;">
 
 
 
-      <nav class="navbar navbar-dark" style="background-color: #3c3c3c;">
-        <div class="container"/div>
-        <a class="navbar-brand" href="/">
-          <img src="/assets/images/logo.png" width="120" height="30" class="d-inline-block align-top" alt="">
-        </a>
-        <span class="navbar-text">
-            {% for item in site.data.navigation %}
-				{{ item.icon }}
-				<a href="{{ item.link }}" style="color:#ffffff;">{{ item.name }}</a>
-			{% endfor %}
-        </span>
-      </div>
-      </nav>
+      {% include navbar.html %}
 
 
-    <div class="jumbotron text-white jumbotron-image shadow" style="background-image: url(/assets/images/logo_jumbotron.png); background-size: cover; margin-bottom: 60px;">
-      <h1 class="display-4" style="font-size: 22em; color:#ffffff;">RealLab</h1>
-      <p class="lead" style="color:#ffffff;">Sapienza - Università di Roma</p>
-      <hr style="height:10px; width: 5px; border-width:0;color:gray;background-color:#3c3c3c;">
-      <a class="btn" href="#introduction" role="button" style="color:#fac855;"><i class="fas fa-chevron-down"></i></a>
-    </div>
+    {% include jumbotron_home.html %}
 
     <div class="container" id="introduction">
-      <div class="card-deck">
-        <div class="card" style="background-color: #3c3c3c; border: none; border-radius: 5%; ">
-          <img class="card-img-top" src="/assets/images/team-work.jpg" alt="Card image cap" style="border-top-left-radius: 5%; border-top-right-radius:5%;">          
-		  <div class="card-body">
-            <h5 class="card-title"><a href="/persone_alumni.html" style="color:#ffffff;">Persone & Alumni</a></h5>
-            <p class="card-text" style="color:#ffffff;">Descrizione</p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted"></small>
-          </div>
-        </div>
-        <div class="card" style="background-color: #3c3c3c; border: none; border-radius: 5%; ">
-          <img class="card-img-top" src="/assets/images/publications.png" alt="Card image cap" style="border-top-left-radius: 5%; border-top-right-radius:5%;">
-          <div class="card-body">
-            <h5 class="card-title" style="color:#ffffff;"><a href="/pubblicazioni.html" style="color:#ffffff;">Pubblicazioni</a></h5>
-            <p class="card-text" style="color:#ffffff;">Descrizione</p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted"></small>
-          </div>
-        </div>
-        <div class="card" style="background-color: #3c3c3c; border: none; border-radius: 5%; ">
-          <img class="card-img-top" src="/assets/images/projects.jpg" alt="Card image cap" style="border-top-left-radius: 5%; border-top-right-radius:5%;">
-          <div class="card-body">
-            <h5 class="card-title" style="color:#ffffff;"><a href="/progetti.html" style="color:#ffffff;">Progetti</a></h5>
-            <p class="card-text" style="color:#ffffff;">Descrizione</p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted"></small>
-          </div>
-        </div>
-      </div>
+
     </div>
-	
+
+	<h2 class="myCopy">
+    <span>News</span>
+  </h2>
+
 	<div style="height: 70px;">
 	</div>
-		
-    <nav class="navbar bottom navbar-dark" style="background-color: #3c3c3c;">
-      <div class="container">
-  <img src="/assets/images/logo.png" width="300" height="80" class="d-inline-block align-top" alt="">
-    <img src="/assets/images/sapienza.png" width="300" height="80" class="d-inline-block align-top" alt="">
 
-</div>
-</nav>
+    {% include footer.html %}
 
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->

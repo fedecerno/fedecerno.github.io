@@ -1,0 +1,40 @@
+<div class="container">
+  <div class="card mb-3" style=" background-color: #2d3142; border: none; max-width: auto;">
+
+  <div class="row no-gutters">
+    <div class="col-md-8">
+      <div class="card-body" style="background-color: #2d3142; border: none;">
+        <h5 class="card-text" style="color:#ffffff; text-align:center;">{{ item.titolo }}</h5>
+        <p class="card-title" style="color:#ffffff; text-align:center;">{{ item.autori }}</p>
+        <p class="card-text" style="color:#ffffff; text-align:center;">{{ item.data }}</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+  <hr style="height:10px;border-width:0;color:gray;background-color:#2d3142;">
+      <p>
+        <button class="btn" type="button" data-toggle="collapse" data-target="#{{ item.collapse_01 }}" aria-expanded="false" aria-controls="collapseExample" style="box-shadow: none;">
+          <i class="fas fa-newspaper" style="color:#f4603d;"></i>
+        </button>
+        <button class="btn" type="button" data-toggle="collapse" data-target="#{{ item.collapse_02 }}" aria-expanded="false" aria-controls="collapseExample" style="box-shadow: none;">
+          <i class="fas fa-bold" style="color:#f4603d;"></i>
+        </button>
+        <button class="btn" type="submit" onclick="window.open('{{ item.pdf }}'); return true;" style="box-shadow: none;">
+          <i class="fas fa-file-download" style="color:#f4603d;"></i>
+        </button>
+      </p>
+    </div>
+  </div>
+  <div class="collapse" id="{{ item.collapse_01 }}" style="color:#ffffff; border-style: solid; border-color: #f4603d;">
+    <div class="card card-body" style="background-color:#2d3142;">
+      {{ item.abstract }}
+    </div>
+  </div>
+<div class="collapse" id="{{ item.collapse_02 }}" style="color:#ffffff; border-style: solid; border-color: #f4603d;">
+    <div class="card card-body" style="background-color:#2d3142;">
+      {{ item.bibitex }}
+    </div>
+  </div>
+</div>
+</div>
+
+<hr style="height:10px; width: 5px; border-width:0;color:gray;background-color:#bfc0c0;">

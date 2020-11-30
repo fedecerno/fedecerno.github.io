@@ -13,47 +13,28 @@
 
     <link rel="stylesheet" href="/assets/css/styles_index.css">
 	<script src="https://kit.fontawesome.com/5c118897ca.js" crossorigin="anonymous"></script>
-    <title>Pubblicazioni</title>
+    <title>Progetti</title>
   </head>
-  <body style="background-color:#fac855;">
+  <body style="background-color:#bfc0c0;">
 
 
 
-      <nav class="navbar navbar-dark" style="background-color: #3c3c3c;">
-        <div class="container"/div>
-        <a class="navbar-brand" href="/">
-          <img src="/assets/images/logo.png" width="120" height="30" class="d-inline-block align-top" alt="">
-        </a>
-        <span class="navbar-text">
-            {% for item in site.data.navigation %}
-				{{ item.icon }}
-				<a href="{{ item.link }}" style="color:#ffffff;">{{ item.name }}</a>
-			{% endfor %}
-        </span>
-      </div>
-      </nav>
+      {% include navbar.html %}
 
 
-    <div class="jumbotron text-white jumbotron-image shadow" style="background-image: url(/assets/images/logo_jumbotron.png); background-size: 1500px 300px; margin-bottom: 60px;">
-      <h1 class="display-4" style="color:#b1ae91;">Progetti</h1>
-      <p class="lead" style="color:#b1ae91;">Descrizione</p>
-      <hr style="height:10px; width: 5px; border-width:0;color:gray;background-color:#3c3c3c;">
-    </div>
+    {% include carousel_progetti.html %}
 
-	
-    <div class="container">
-		<img src="/assets/images/page_under_work.jpg" class="d-inline-block align-top" alt="">
+<hr style="height:10px; width: 5px; border-width:0;color:gray;background-color:#bfc0c0;">
+<hr style="height:10px; width: 5px; border-width:0;color:gray;background-color:#bfc0c0;">
+<hr style="height:10px; width: 5px; border-width:0;color:gray;background-color:#bfc0c0;">
+
+
+    {% include card_progetti.html %}
+
+	<div style="height: 70px;">
 	</div>
-	
 
-
-    <nav class="navbar bottom navbar-dark" style="background-color: #3c3c3c;">
-      <div class="container">
-  <img src="/assets/images/logo.png" width="300" height="80" class="d-inline-block align-top" alt="">
-    <img src="/assets/images/sapienza.png" width="300" height="80" class="d-inline-block align-top" alt="">
-
-</div>
-</nav>
+    {% include footer.html %}
 
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
