@@ -16,9 +16,3 @@ html {
     border-bottom: solid 2px #3c3c3c;
     text-align: center;
 }
-
-.myCopy span {
-    display: inline-block;
-    background-color: #bfc0c0;
-    padding: 0 100px;
-}
