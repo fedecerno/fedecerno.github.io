@@ -23,12 +23,6 @@ div.card-deck {
     text-align: center;
 }
 
-.myCopy span {
-    display: inline-block;
-    background-color: #fac855;
-    padding: 0 100px;
-}
-
 li{
     font-weight:bold;
 	margin: 0 0 5px 0;

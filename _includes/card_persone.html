@@ -1,0 +1,36 @@
+<div class="container">
+  {% for item in site.data.persone %}
+	<div class="card-deck">
+		<div class="card mb-3" style="max-width: 540px; background-color: #2d3142; border: none; border-top-left-radius: 5%; border-bottom-left-radius:5%; border-top-right-radius: 3%; border-bottom-right-radius:3%;">
+		  <div class="row no-gutters">
+			<div class="col-md-4">
+			  <img src={{item.image_sx}} class="card-img" alt="Image" style="border-top-left-radius: 5%; border-bottom-left-radius:5%;">
+			</div>
+			<div class="col-md-8">
+			  <div class="card-body">
+				<h5 class="card-title" style="color:#ffffff;">{{item.name_sx}}</h5>
+				<p class="card-text" style="color:#ffffff;">{{item.role_sx}}</p>
+				<p class="card-text" style="color:#ffffff;">{{item.presentation_sx}}</small></p>
+			  </div>
+			</div>
+		  </div>
+		</div>
+
+    <div class="card mb-3" style="max-width: 540px; background-color: #2d3142; border: none; border-top-left-radius: 5%; border-bottom-left-radius:5%; border-top-right-radius: 3%; border-bottom-right-radius:3%;">
+		  <div class="row no-gutters">
+			<div class="col-md-4">
+			  <img src={{item.image_dx}} class="card-img" alt="Image" style="border-top-left-radius: 5%; border-bottom-left-radius:5%;">
+			</div>
+			<div class="col-md-8">
+			  <div class="card-body">
+				<h5 class="card-title" style="color:#ffffff;">{{item.name_dx}}</h5>
+				<p class="card-text" style="color:#ffffff;">{{item.role_dx}}</p>
+				<p class="card-text" style="color:#ffffff;">{{item.presentation_dx}}</small></p>
+			  </div>
+			</div>
+		  </div>
+		</div>
+  </div>
+	<hr style="height:10px;border-width:0;color:gray;background-color:#bfc0c0;">
+  {% endfor %}
+	</div>
