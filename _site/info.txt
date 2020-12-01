@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: WorkSans-Regular
+font link: https://fonts.google.com/specimen/Work+Sans
+font author: Wei Huang
+font author site: 
+
+
+icon designer: Parallel Digital Studio
+icon designer link: /Parallel
+        
+{"bg":"#E87D22","icon":"#762A0C","font":"#ffffff","slogan":"#ffffff"}
+      

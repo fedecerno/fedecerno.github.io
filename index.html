@@ -14,30 +14,36 @@
     <link rel="stylesheet" href="/assets/css/styles_index.css">
 	<script src="https://kit.fontawesome.com/5c118897ca.js" crossorigin="anonymous"></script>
 
-    <title>RealLab</title>
+    <title>Systems Lab</title>
   </head>
   <body style="background-color:#bfc0c0;">
-
-
 
       {% include navbar.html %}
 
 
     {% include jumbotron_home.html %}
 
-    <div class="container" id="introduction">
+    {% include card_argomenti.html %}
 
-    </div>
+  <hr style="height:10px; width: 5px; border-width:0;color:gray;background-color:#bfc0c0;">
 
 	<h2 class="myCopy">
-    <span>News</span>
+    <span style="display: inline-block; background-color: #bfc0c0;padding: 0 100px;">News</span>
   </h2>
 
-	<div style="height: 70px;">
+<hr style="height:10px; width: 5px; border-width:0;color:gray;background-color:#bfc0c0;">
+
+	<div class="container" style="text-align:left;">
+    <ul>
+      {% for item in site.data.notizie %}
+      <li style="font-weight: bold;"><i class="fas fa-bullhorn"></i> {{ item.titolo }} </li>
+      <li style="list-style-type: none;">{{ item.testo }}</li>
+      <hr style="height:10px; width: 5px; border-width:0;color:gray;background-color:#bfc0c0;">
+      {% endfor %}
+    </ul>
 	</div>
 
     {% include footer.html %}
-
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
