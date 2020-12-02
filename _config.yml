@@ -3,3 +3,5 @@ collections:
     output: true
   argomenti:
     output: true
+  persone:
+    output: true

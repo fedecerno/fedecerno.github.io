@@ -1,51 +1,7 @@
 <div class="container">
-  {% for item in site.data.persone %}
-	<div class="card-deck" style="color:#ffffff;">
-    <div class="card" style="border: none; background-color: #172b4d;">
-      <img class="card-img-top" src="{{ item.image_sx }}" alt="{{ item.name_sx }}" style="height:300px;">
-      <div class="card-body">
-        <h4 class="card-title" style="font-weight:bold; ">{{ item.name_sx }}</h4>
-        <h5 class="card-text">{{ item.role_sx }}</h5>
-      <br>
-        <p class="card-text">{{ item.presentation_sx }}</p>
-      </div>
-      <div class="card-footer" style="text-align: right;">
-        {%for link in item.link %}
-         {{ link }}
-        {% endfor %}
-      </div>
-    </div>
-
-    <div class="card" style="border:none; background-color: #172b4d;">
-      <img class="card-img-top" src="{{ item.image_dx }}" alt="{{ item.name_dx }}" style="height:300px;">
-      <div class="card-body">
-        <h4 class="card-title" style="font-weight:bold; color:#ffffff;">{{ item.name_dx }}</h4>
-        <h5 class="card-text">{{ item.role_sx }}</h5>
-          <br>
-        <p class="card-text">{{ item.presentation_dx }}</p>
-      </div>
-      <div class="card-footer" style="text-align: right;">
-        {%for link in item.link %}
-         {{ link }}
-        {% endfor %}
-      </div>
-    </div>
-
-    <div class="card" style="border:none; background-color: #172b4d;">
-      <img class="card-img-top" src="{{ item.image_dx }}" alt="{{ item.name_dx }}" style="height:300px;">
-      <div class="card-body">
-        <h4 class="card-title" style="font-weight:bold; color:#ffffff;">{{ item.name_dx }}</h4>
-        <h5 class="card-text">{{ item.role_sx }}</h5>
-          <br>
-        <p class="card-text">{{ item.presentation_dx }}</p>
-      </div>
-      <div class="card-footer" style="text-align: right;">
-        {%for link in item.link %}
-         {{ link }}
-        {% endfor %}
-      </div>
-    </div>
-  </div>
-	<hr style="height:10px;border-width:0;color:gray;background-color:#bfc0c0;">
-  {% endfor %}
+	<div class="card-deck">
+    {% for persona in site.persone %}
+      {{ persona }}
+    {% endfor %}
 	</div>
+</div>
