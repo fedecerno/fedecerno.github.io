@@ -1,0 +1,5 @@
+collections:
+  news:
+    output: true
+  argomenti:
+    output: true

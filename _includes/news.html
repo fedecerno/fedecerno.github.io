@@ -1,11 +1,7 @@
 <div class="container" style="text-align:left;">
-  <ul>
-    {% for item in site.data.notizie %}
-    <li style="font-weight: bold;"><i class="fas fa-bullhorn"></i> {{ item.titolo }} </li>
-    <li style="list-style-type: none;">{{ item.testo }}</li>
-    <br>
-    <li style="list-style-type: none;">{{ item.data }}</li>
-    <br>
-    {% endfor %}
-  </ul>
+<ul>
+  {% for news in site.news %}
+      {{ news }}
+  {% endfor %}
+</ul>
 </div>

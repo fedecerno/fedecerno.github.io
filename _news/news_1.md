@@ -1,0 +1,6 @@
+---
+layout: news
+titolo: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent efficitur.
+data: GG/MM/AAAA
+---
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non dolor eget sem elementum varius vel in nulla. Duis faucibus tristique aliquam. Vestibulum tincidunt tincidunt enim ac facilisis. Vestibulum imperdiet et ante vitae hendrerit. Sed scelerisque ut justo vitae eleifend. Donec vitae quam magna. Suspendisse vitae ipsum faucibus nisi rutrum commodo. Integer consectetur est sit amet nibh molestie convallis. Phasellus in sapien vel sem accumsan maximus eget id massa. Morbi nibh turpis, imperdiet et tincidunt vel, consectetur quis diam. Donec commodo risus at risus lobortis, accumsan vehicula augue aliquet. Quisque ultrices ligula at nisl interdum blandit. Pellentesque habitant morbi tristique. 

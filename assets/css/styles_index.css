@@ -23,10 +23,18 @@ html, body {
 }
 
 .card{
-  background-color: #bfc0c0;
+  background-color: #f6f9fc;
 }
 
 .card:hover{
-  background-color: #172b4d;
+  background-color: #5e72e4;
+  color:#ffffff;
+}
+
+.i{
+  color:#3d55df;
+}
+
+.i:hover{
   color:#ffffff;
 }

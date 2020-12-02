@@ -1,0 +1,28 @@
+---
+---
+
+<div class="card-deck">
+  <div class="card mb-3" style="width: auto; border: none;">
+    <div class="row no-gutters">
+    <i class="{{ page.icon_sx }}" style="margin-top:25px;"></i>
+    <div class="col-md-8">
+      <div class="card-body" style="width:500px;">
+      <h5 class="card-title" style="font-weight: bold;">{{ page.argomento_sx }}</h5>
+      <p class="card-text">{{ page.excerpt }}</p>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="card mb-3" style="width: auto; border: none;">
+    <div class="row no-gutters">
+    <i class="{{ page.icon_dx }}" style="margin-top:25px;"></i>
+    <div class="col-md-8">
+      <div class="card-body" style="width:500px;">
+      <h5 class="card-title" style="font-weight: bold;">{{ page.argomento_dx }}</h5>
+      <p class="card-text">{{ content | remove_first:page.excerpt }}</p>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
