@@ -1,15 +1,15 @@
 - titolo: Progetto A
-  descrizione_jumbotron: Descrizione
-  descrizione_carta: Descrizione
+  descrizione_jumbotron: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget metus sed mauris congue commodo. Integer elementum laoreet sem vel.
+  descrizione_carta: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer faucibus sem risus, eget consectetur lectus facilisis eget. Quisque sagittis luctus consectetur. Vivamus tempus, arcu gravida sodales imperdiet, dui sem finibus dui, eget hendrerit massa ante finibus ex. Suspendisse vitae tellus.
   immagine: /assets/images/team-work.jpg
   active: active
 
 - titolo: Progetto B
-  descrizione_jumbotron: Descrizione
-  descrizione_carta: Descrizione
+  descrizione_jumbotron: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget metus sed mauris congue commodo. Integer elementum laoreet sem vel.
+  descrizione_carta: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer faucibus sem risus, eget consectetur lectus facilisis eget. Quisque sagittis luctus consectetur. Vivamus tempus, arcu gravida sodales imperdiet, dui sem finibus dui, eget hendrerit massa ante finibus ex. Suspendisse vitae tellus.
   immagine: /assets/images/publications.png
 
 - titolo: Progetto C
-  descrizione_jumbotron: Descrizione
-  descrizione_carta: Descrizione
+  descrizione_jumbotron: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget metus sed mauris congue commodo. Integer elementum laoreet sem vel.
+  descrizione_carta: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer faucibus sem risus, eget consectetur lectus facilisis eget. Quisque sagittis luctus consectetur. Vivamus tempus, arcu gravida sodales imperdiet, dui sem finibus dui, eget hendrerit massa ante finibus ex. Suspendisse vitae tellus. 
   immagine: /assets/images/projects.jpg

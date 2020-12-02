@@ -1,19 +1,24 @@
 - name_sx: Alessandro Mei
   role_sx: Full professor & Head
-  presentation_sx: Presentazione
+  presentation_sx: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin accumsan in diam posuere auctor. Cras sed pulvinar leo, id faucibus leo. Integer et porttitor dui. Fusce quis suscipit enim, vel fringilla tortor. Donec sit amet facilisis urna.
   image_sx: "/assets/images/mei.jpg"
+  link:
+    <a href="http://wwwusers.di.uniroma1.it/~mei/"><i class="fab fa-linkedin"></i></a>
+
 
   name_dx: Massimo La Morgia
   role_dx: Postdoc
-  presentation_dx: Presentazione
+  presentation_dx: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin accumsan in diam posuere auctor. Cras sed pulvinar leo, id faucibus leo. Integer et porttitor dui. Fusce quis suscipit enim, vel fringilla tortor. Donec sit amet facilisis urna.
   image_dx: "/assets/images/lamorgia.jpg"
+  link:
+    <a href="http://wwwusers.di.uniroma1.it/~mei/"><i class="fab fa-linkedin"></i></a>
 
 - name_sx: Eugenio Nemmi
   role_sx: PHD Student
-  presentation_sx: Presentazione
+  presentation_sx: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin accumsan in diam posuere auctor. Cras sed pulvinar leo, id faucibus leo. Integer et porttitor dui. Fusce quis suscipit enim, vel fringilla tortor. Donec sit amet facilisis urna.
   image_sx: "/assets/images/nemmi.jpg"
 
   name_dx: Generoso Carbone
   role_dx: Research Fellow
-  presentation_dx: Presentazione
+  presentation_dx: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin accumsan in diam posuere auctor. Cras sed pulvinar leo, id faucibus leo. Integer et porttitor dui. Fusce quis suscipit enim, vel fringilla tortor. Donec sit amet facilisis urna.
   image_dx: "/assets/images/carbone.jpg"

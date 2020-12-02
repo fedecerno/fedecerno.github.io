@@ -4,20 +4,21 @@
 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 </ol>
-<div class="carousel-inner">
+<div class="carousel-inner" style="height:100%;">
 {% for item in site.data.progetti %}
 <div class="carousel-item {{ item.active }}">
-  <img class="d-block w-100" src="{{ item.immagine }}" style="height: 800px;" alt="First slide">
+  <img class="d-block w-100" src="{{ item.immagine }}" alt="First slide" style="height:calc(100vh - 56px);">
 <div class="carousel-caption d-none d-md-block">
 <h1>{{ item.titolo }}</h1>
 <p>{{ item.descrizione_jumbotron }}</p>
-<a class="btn" href="#{{ item.titolo }}" role="button" style="color:#f4603d;"><i class="fas fa-chevron-down"></i></a>
+<a class="btn" href="#{{ item.titolo }}" role="button" style="background-color: #f4603d; color:#ffffff;"><i class="fas fa-chevron-down"></i></a>
+<br>
 </div>
 </div>
 {% endfor %}
 </div>
 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="carousel-control-prev-icon" aria-hidden="true" style="color:#f4603d;"></span>
 <span class="sr-only">Previous</span>
 </a>
 <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">

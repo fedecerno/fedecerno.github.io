@@ -18,11 +18,15 @@
   </head>
   <body style="background-color:#bfc0c0;">
 
+    <div style="height: 100%; background-color:#172b4d;">
+
       {% include navbar.html %}
 
 
     {% include jumbotron_home.html %}
-
+</div>
+<br>
+<br>
     {% include card_argomenti.html %}
 
   <hr style="height:10px; width: 5px; border-width:0;color:gray;background-color:#bfc0c0;">
@@ -35,15 +39,7 @@
 
 <hr style="height:10px; width: 5px; border-width:0;color:gray;background-color:#bfc0c0;">
 
-	<div class="container" style="text-align:left;">
-    <ul>
-      {% for item in site.data.notizie %}
-      <li style="font-weight: bold;"><i class="fas fa-bullhorn"></i> {{ item.titolo }} </li>
-      <li style="list-style-type: none;">{{ item.testo }}</li>
-      <hr style="height:10px; width: 5px; border-width:0;color:gray;background-color:#bfc0c0;">
-      {% endfor %}
-    </ul>
-	</div>
+	{% include news.html %}
 
     {% include footer.html %}
 

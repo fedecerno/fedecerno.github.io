@@ -1,13 +1,12 @@
 <div class="container">
   {% for item in site.data.progetti %}
-  <div class="card mb-3" style="border: none; background-color: #2d3142;" id="{{ item.titolo }}">
-<img class="card-img-top" src="{{ item.immagine }}" style="height: 300px;" alt="Card image cap">
-<div class="card-body">
-<h5 class="card-title" style="color:#ffffff;">{{ item.titolo }}</h5>
-<p class="card-text" style="color:#ffffff;">{{ item.descrizione_carta }}</p>
-<p class="card-text"><small class="text-muted"></small></p>
-</div>
-</div>
+  <div class="card bg-dark text-white" id="{{ item.titolo }}" >
+    <img class="card-img" src="{{ item.immagine }}" alt="{{ item.titolo }}" style="height:300px; opacity: .3;">
+    <div class="card-img-overlay">
+      <h5 class="card-title" style="font weight: bold;">{{ item.titolo }}</h5>
+      <p class="card-text">{{ item.descrizione_carta }}</p>
+    </div>
+  </div>
 <hr style="height:10px; width: 5px; border-width:0;color:gray;background-color:#bfc0c0;">
 {% endfor %}
 </div>

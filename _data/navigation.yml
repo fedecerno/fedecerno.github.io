@@ -1,9 +1,9 @@
 - name: Persone
   link: /persone_alumni.html
-  icon: <i class="fas fa-users" style="color:#f4603d;"></i>
+  icon: <i class="fas fa-users" style="color:#fb6340;"></i>
 - name: Pubblicazioni
   link: /pubblicazioni.html
-  icon: <i class="fas fa-bookmark" style="color:#f4603d;"></i>
+  icon: <i class="fas fa-bookmark" style="color:#fb6340;"></i>
 - name: Progetti
   link: /progetti.html
-  icon: <i class="fas fa-cogs" style="color:#f4603d;"></i>
+  icon: <i class="fas fa-cogs" style="color:#fb6340;"></i>
