@@ -1,6 +1,6 @@
 ---
 layout: argomenti
-argomento_sx: Intelligenza artificiale
+argomento_sx: Atificial Intelligence
 icon_sx: fas fa-brain
 argomento_dx: Machine Learning
 icon_dx: fas fa-chalkboard-teacher
